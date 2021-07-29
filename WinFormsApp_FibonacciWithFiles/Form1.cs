@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
 using System.IO;
-using static WinFormsApp_FibonacciWithFiles.Methods;
+using static WinFormsApp_FibonacciWithFiles.Fibanacci;
 
 namespace WinFormsApp_FibonacciWithFiles
 {

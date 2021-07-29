@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace WinFormsApp_FibonacciWithFiles
 {
-    class Methods
+    class Fibanacci
     {
         public static int NumberFromString(string stringFromFile)
         {
