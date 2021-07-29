@@ -72,7 +72,14 @@ namespace WinFormsApp_FibonacciWithFiles
                 label_alert.Visible = true;
                 button_makeSolution.Enabled = false;
             }
+            catch (ArgumentException)
+            {
+                Application.Exit();
+                label_alert.Visible = true;
+                button_makeSolution.Enabled = false;
+            }
             label_done.Visible = true;
+            button_makeSolution.Enabled = false;
         }
 
         private void textBox_inputPath_TextChanged(object sender, EventArgs e)
