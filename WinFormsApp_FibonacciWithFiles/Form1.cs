@@ -63,10 +63,14 @@ namespace WinFormsApp_FibonacciWithFiles
             catch (FileNotFoundException)
             {
                 Application.Exit();
+                label_alert.Visible = true;
+                button_makeSolution.Enabled = false;
             }
             catch (UnauthorizedAccessException) 
             {
                 Application.Exit();
+                label_alert.Visible = true;
+                button_makeSolution.Enabled = false;
             }
             label_done.Visible = true;
         }
